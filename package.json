@@ -1,0 +1,35 @@
+{
+  "name": "socket.io-custom-auth",
+  "version": "1.0.0",
+  "description": "Authenticate socket.io connections",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -r specs/helper.js specs/auth_specs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxxwww/socket.io-custom-auth"
+  },
+  "keywords": [
+    "socket.io",
+    "socket.io custom auth",
+    "socket.io auth",
+    "socket.io token",
+    "socket.io jwt",
+    "socketio",
+    "auth",
+    "authentication"
+  ],
+  "author": "Xxx Www <xwchank@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxxwww/socket.io-custom-auth/issues"
+  },
+  "homepage": "https://github.com/xxxwww/socket.io-custom-auth",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "2.5.3",
+    "socket.io": "1.4.8",
+    "socket.io-client": "1.4.8"
+  }
+}
