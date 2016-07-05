@@ -28,6 +28,8 @@ auth = function(data, done) {
     var userdata = {
       id: 1
     };
+    
+    socket.user = userdata;
     done(null, userdata);
   } else {
     done(new Error('bad token')) // or any error message

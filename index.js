@@ -37,7 +37,6 @@ module.exports = function(io, auth, options, callback) {
 					return disconnect(error);
 				} else {
 					socket.authenticated = true;
-					socket.user = data;
 					socket.emit('authenticated', data);
 					return callback(socket);
 				}
