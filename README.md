@@ -1,5 +1,7 @@
 # socket.io-custom-auth
 
+[![Build Status](https://travis-ci.org/xxxwww/socket.io-custom-auth.svg?branch=master)](https://travis-ci.org/xxxwww/socket.io-custom-auth)
+
 It provides a hook to authenticate [socket.io](https://github.com/socketio/socket.io)
 without using query-strings to send credentials, which is not a good security practice.
 
